@@ -1,0 +1,31 @@
+{
+  "name": "20200603-mevn-test",
+  "version": "1.0.0",
+  "description": "full stack vue and express app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damky/20200603-mevn-test.git"
+  },
+  "author": "Doug McKay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damky/20200603-mevn-test/issues"
+  },
+  "homepage": "https://github.com/damky/20200603-mevn-test#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.8",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
